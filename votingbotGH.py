@@ -1,3 +1,7 @@
+#Voting bot for the website "Planet Minecraft"
+#I have reported this issue to the Website and it has been fixed by utilising the suggestion I made.
+
+
 import selenium
 from selenium import webdriver
 from selenium.webdriver.common.by import By
