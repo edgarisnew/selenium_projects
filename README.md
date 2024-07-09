@@ -1,4 +1,4 @@
-This project envolves learning everything I can about utilising Selenium (Python).
+This project envolves learning everything I can about utilizing Selenium (Python).
 
 The main areas I hope to tackle are:
 
