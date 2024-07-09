@@ -21,10 +21,10 @@ driver.get("VOTING URL")
 
 driver.implicitly_wait(30)
 
-cookies = driver.find_element(By.CLASS_NAME,"css-47sehv")
+cookies = driver.find_element(By.CLASS_NAME,"")
 
 WebDriverWait(driver,30).until(
-    EC.presence_of_element_located((By.CLASS_NAME,"css-47sehv"))
+    EC.presence_of_element_located((By.CLASS_NAME,""))
 )
 
 cookies.click()
@@ -42,7 +42,7 @@ submit.click()
 
 pyperclip.copy(" ")
 
-time.sleep(30)
+time.sleep(30) #Not recommended to use but allowed me to check visually instead of asserting with the script.
 
 driver.quit
 
